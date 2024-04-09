@@ -1,0 +1,106 @@
+.Navbar{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    min-height: 70px;
+    
+}
+.Navbar li{
+    margin: 0px 19px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    color: #000;
+}
+.info{
+ /* background: #000; */
+ text-align: center;
+ padding: 10px;
+}
+.zoom{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.zoom:hover img{
+    transition: .4s all linear;
+scale: 1.2;
+}
+.section2{
+    height: 100vh;
+    background-color: #A22965;
+    margin-top: 50px;
+    overflow: hidden;
+    color: #fff;
+}
+.screenImg{
+    width: 100%;
+    height: 100%;
+}
+.Aboutsbutton{
+    background-color: #fff;
+    padding: 10px 20px;
+    /* border-radius: 10px; */
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 10px;
+   
+}
+.Aboutsbutton:hover{
+    background:linear-gradient(to right, #ef233c,#d90429,#dc2f02,#e85d04);
+    color: #fff;
+    font-weight: normal;
+    transition: 0.2s all ease-in-out;
+    border-radius: 5px;
+}
+
+.png-card{
+    text-align: center;
+    border: 1px solid #000;
+    padding: 25px;
+}
+.png-card p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.png-image{
+    width: 80px;
+}
+
+.owl-carousel{
+    display: flex;
+    /* background-color: red; */
+    max-height: 50vh !important;
+  }
+  .owl-item {
+    margin: 0 10px;
+  }
+  .owl-carousel img {
+    width: 100%;
+    height: auto;
+  }
+.sport-card{
+    margin: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 8;
+}
+.sport-card-image img{
+  border-radius: 5px 5px 0px 0px;
+}
+.sport-card-image img:hover{
+    transform: scale(1.2);
+    transition: 0.7s all ease-in-out;
+}
+

@@ -1,0 +1,43 @@
+.reactheme-breadcrumbs .porfolio-details{
+  position: relative;
+}
+.reactheme-breadcrumbs{
+    background: #00306E;
+}
+.breadcrumbs-single{
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.breadcrumbs-title{
+    text-decoration: none;
+    color: #fff;
+}
+.sub-text{
+    color: #00306E;
+   /* background-color: red; */
+
+}
+.title{
+    color: #910148;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.normal{
+    font-weight: 400;
+    font-size: 20px;
+    color: gray;
+}
+.second{
+    margin-left: 70px;
+}
+.title-inner{
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
